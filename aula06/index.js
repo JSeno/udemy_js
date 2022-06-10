@@ -6,6 +6,8 @@
 * utilize o underscore para separar palavras
 * procure usar camelCase ao declarar variáveis: nomeCompletoDoUsuario
 * variáveis são case sensitive nomecliente != NomeCliente
+* não podemos redeclarar variáveis com let
+* não utilize var utilize let
 */
 
 // let nome = 'João';
