@@ -31,6 +31,8 @@ let umaString ='O rato roeu a roupa do rei de roma.';
 // console.log(umaString.substring(umaString.length - 5, umaString.length - 1)); // Mostra a string de -5 até o final
 // console.log(umaString.split(' ')); // Divide a string em um array
 // console.log(umaString.split('r')); // Divide a string em um array e mostra apenas as ocorrências da letra 'r'
-console.log(umaString.split(' ', 2)); // Divide a string em um array e mostra somente 2 palavras
+// console.log(umaString.split(' ', 2)); // Divide a string em um array e mostra somente 2 palavras
+// console.log(umaString.toUpperCase()) // Mostra a string em letras maiúsculas
+console.log(umaString.toLowerCase()) // Mostra a string em letras minúsculas
 
 
