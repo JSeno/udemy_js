@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios aula 13</title>
+</head>
+<body>
+    <script>
+        
+        // Fazer esse exercício buscando índices e utilizando length.
+        const nome = prompt('Digite seu nome completo: ');
+        document.body.innerHTML += `O seu nome é <strong>${nome}</strong> <br />`;
+        document.body.innerHTML += `O seu tem <strong>${nome.length}</strong> letras <br />`; // letras = nome.length;
+        document.body.innerHTML += `A segunda letra de seu nome é <strong>${nome.charAt(1)}</strong> <br />`; //letras = nome.charAt(1);
+        document.body.innerHTML += `Qual o primeiro índice da letra "e" no seu nome <strong>${nome.indexOf('e')}</strong> <br />`; //letras = nome.indexOf('a');
+        document.body.innerHTML += `Qual o último índice da letra "e" no seu nome <strong>${nome.lastIndexOf('e')}</strong> <br />`; //letras = nome.lastIndexOf('a');
+        document.body.innerHTML += `As últimas letras do seu nome são: <strong>${nome.slice(-3)}</strong> <br />`; //letras = nome.substr(-3);
+        document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong> <br />`; //letras = nome.split(' ');
+        document.body.innerHTML += `O seu nome é <strong>${nome.toUpperCase()}</strong> <br />`; //letras = nome.toUpperCase();
+        document.body.innerHTML += `O seu nome é <strong>${nome.toLowerCase()}</strong> <br />`; //letras = nome.toLowerCase();
+
+
+    </script>
+</body>
+</html>
